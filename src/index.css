@@ -1,0 +1,623 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Lato', sans-serif; */
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 100px;
+}
+
+.container-input{
+    display: flex;
+    align-items: end;
+    position: relative;
+    width: 40%;
+}
+
+.container-input input{
+    color: #7A7A7A;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: solid 2px #7A7A7A;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    width: 100%;
+}
+
+
+.container-cuenta{
+    display: flex;
+    gap: 50px;
+}
+
+.cuenta{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cuenta p{
+    color: #7A7A7A;
+    font-size: 13px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.buy{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.buy .numero{
+    background: #F8475F;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy .numero p{
+    margin: 0;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.container-slider{
+    padding: 40px 100px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container-slider .title{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-slider .title::after{
+    content: '';
+    border-bottom: 4px solid #C0C0C0;
+    display: block;
+    width: 70px;
+    margin-top: 5px;
+}
+
+.caja{
+    width: 216px;
+    height: 353px;
+    text-align: center;
+    transition: 0.2s;
+    position: relative;
+}
+
+.caja:hover{
+    background-color: #E6E8EA;
+}
+.caja:hover .contenido-card button{
+    opacity: 1;
+}
+
+.caja .off{
+    background-color: #F8475F;
+    width: 81px;
+    height: 72px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50%);
+    position: absolute;
+    right: 0;
+}
+
+.caja .off p{
+   font-size: 16px;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 900;
+   color: #fff;
+   text-transform: uppercase;
+   position: relative;
+   left: 16px;
+   top: 10px;
+}
+
+.contenido-card .name{
+    font-size: 12px;
+    color: #7A7A7A;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.css-ryrseu-MuiRating-root{
+    color: #F8475F !important;
+    font-size: 15px !important;
+}
+
+.contenido-card .lista-precio{
+    font-size: 12px;
+    color: #7A7A7A;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+}
+
+.contenido-card .precio{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0
+}
+
+.contenido-card .precio-falso{
+    font-size: 12px;
+    color: #7A7A7A;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+    text-decoration: line-through;
+}
+
+.contenido-card .cuota{
+    font-size: 11px;
+    color: #7A7A7A;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+}
+
+.contenido-card button{
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    opacity: 0;
+}
+
+.container-formulario{
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 15px 0 30px 0;
+}
+
+.container-formulario .title-form{
+    font-size: 22px;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.container-formulario .formulario .input-text , .container-formulario .formulario .input-email{
+    color: #585858;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    padding: 14px;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    height: 48px;
+}
+
+.container-formulario .formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-formulario .formulario .input-submit{
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    height: 48px;
+}
+
+.container-footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px;
+    gap: 10px;
+}
+
+.container-footer .textos-footer{
+    color: #fff;
+}
+
+.container-footer .textos-footer p{
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-footer .textos-footer .title-footer{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-footer .textos-footer .title-footer::after{
+    content: '';
+    border-bottom: 4px solid #fff;
+    display: block;
+    width: 50px;
+    margin: 15px 0
+}
+
+.container-footer .btn-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-footer .btn-footer button{
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 20px;
+    border-radius: 5px;
+    height: 38px;
+    border: none;
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}
+
+.container-footer .btn-footer button:hover{
+    background-color: #E6E8EA;
+}
+
+.container-footer .icons-footer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-footer .icons-footer div{
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.div-corebiz {
+    margin-bottom: 10px;
+}
+
+.container-footer .icons-footer .div-corebiz .corebiz{
+    margin-bottom: 5px;
+}
+
+
+.container-footer .icons-footer .div-vtex .vtex{
+    margin: 0;
+}
+
+.barrita{
+    background-color: #C0C0C0;
+    height: 10px;
+}
+
+.carrousel-mobile{
+    display: none;
+}
+
+.error p{
+    font-family: 'Lato', sans-serif !important;
+    width: 40% !important;
+}
+
+
+
+/*---- Slider Owl ----*/
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev ,.owl-carousel .owl-nav button.owl-next{
+   position: absolute !important;
+   top: 50% !important;
+   transform: translateY(-50%) !important;
+   color: #000 !important;
+   font-size: 60px !important;
+   background: none !important;
+}
+
+.owl-nav button{
+    border: none !important;
+    outline: none !important;
+}
+
+.owl-prev{
+    left: 0 !important;
+}
+
+.owl-next{
+    right: 0 !important;
+}
+
+
+
+
+
+/* ---- Carrousel Bootstrap---- */
+.carousel-indicators [data-bs-target]{
+    background-clip: unset !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border: none !important;
+    background-color: #BDBDBD !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active{
+    background-color: #F8475F !important;
+}
+
+.carousel-control-next-icon{
+    display: none !important;
+}
+
+.carousel-control-prev-icon{
+    display: none !important;
+}
+
+.carousel-caption{
+    right: unset !important;
+    left: 13% !important;
+    bottom: 120px !important;
+    text-align: left !important;
+    max-width: 500px !important;
+    padding: 0 !important;
+}
+
+.carousel-caption h3{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 25px;
+}
+
+.carousel-caption h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+ }
+
+
+
+/* -----Mobile---- */
+.container-header-mobile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.contenido-mobile-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.contenido-mobile-2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-input{
+    display: flex;
+    align-items: end;
+    position: relative;
+    width: 40%;
+}
+
+
+ /* ------ Medias Query ------ */
+ @media (max-width: 768px){
+    .container-header{
+       display: none;
+    }
+
+    .container-header-mobile {
+        display: flex;
+        padding: 0 30px;
+    }
+
+    .container-input{
+        width: 100%;
+    }
+
+    .carrousel-desktop{
+        display: none;
+    }
+
+    .carrousel-mobile{
+        display: block;
+    }
+
+    .container-slider .title{
+        font-size: 18px;
+    }
+
+    .container-slider .title::after{
+        width: 50px;
+    }
+
+    .container-slider{
+        padding: 40px;
+    }
+
+    .contenido-card .name{
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .css-ryrseu-MuiRating-root{
+        font-size: 13px !important;
+    }
+
+    .contenido-card .lista-precio{
+        font-size: 11px;
+    }
+
+    .contenido-card .precio{
+        font-size: 16px;
+    }
+
+    .caja{
+        width: 163px;
+        height: 300px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span{
+        background: #BDBDBD !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span{
+        background: #F8475F !important;
+    }
+
+    .contenido-card button{
+        width: 100%;
+        font-size: 15px;
+        opacity: 1;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 20px !important;
+    }
+
+    .caja:hover{
+        background-color: #fff;
+    }
+
+    .container-formulario .title-form{
+        font-size: 27px;
+        text-align: left;
+    }
+
+    .container-formulario .formulario{
+        flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        gap: 15px;
+    }
+
+    .container-formulario .formulario .input-text, .container-formulario .formulario .input-email{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .container-formulario .formulario .input-submit{
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .container-formulario{
+        padding: 30px;
+    }
+
+    .container-footer{
+        flex-direction: column;
+        padding: 30px;
+        align-items: baseline;
+    }
+
+    .container-footer .textos-footer .title-footer{
+        font-size: 22px;
+    }
+
+    .container-footer .textos-footer .title-footer::after{
+        width: 43px;
+        margin: 15px 0 25px 0;
+    }
+
+    .container-footer .textos-footer p{
+        margin-bottom: 15px;
+    }
+
+    .container-footer .btn-footer{
+        margin: auto;
+        padding: 20px 0 40px 0;
+        width: 60%;
+    }
+
+    .container-footer .icons-footer{
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .carousel-caption h1{
+        font-size: 32px;
+    }
+
+    .carousel-caption h3{
+        font-size: 24px;
+    }
+
+    .carousel-caption{
+        left: 5% !important;
+        bottom: 83px !important;
+    }
+
+    .error p{
+        width: 100% !important;
+    }
+
+    .caja .off{
+        width: 62px;
+        height: 54px;
+    }
+    
+    .caja .off p{
+       font-size: 10px;
+       font-weight: 700;
+       left: 12px;
+       top: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    .carousel-caption{
+        bottom: 15px !important;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 1400px){
+    .carousel-caption{
+        bottom: 30px !important;
+    }
+    
+}
